@@ -119,7 +119,11 @@ The number of model parameters in the custom MLP model was set to approximately 
 ![image](https://github.com/ljhyeok123/MNIST-Classification/assets/146068357/6f6cb968-374d-4d21-95b4-f5634b194db9)
 ![image](https://github.com/ljhyeok123/MNIST-Classification/assets/146068357/ec02e952-df82-4bdb-947d-70170de94ca4)
 
-To improve the LeNet-5 model, two normalization techniques were applied: batch normalization and dropout. We used torch.nn.BatchNorm2d to add batch normalization and torch.nn.Dropout to add dropout. These additional techniques can stabilize the model's training and reduce overfitting. 
+To improve the LeNet-5 model, two normalization techniques were applied: batch normalization and dropout. We used torch.nn.BatchNorm2d to add batch normalization and torch.nn.Dropout to add dropout.  While these additional techniques can stabilize model training and reduce overfitting, many epochs will result in overfitting. The custom MLP did not decrease test loss at the 13th epoch, and LeNet-5 similarly increased test loss at the 14th epoch, resulting in little increase in test accuracy.
+
+![image](https://github.com/ljhyeok123/MNIST-Classification/assets/146068357/5bf40e0a-cf9b-4382-b035-b3c7684cc359)
+![image](https://github.com/ljhyeok123/MNIST-Classification/assets/146068357/0def0cc4-0695-4c10-9222-8acf121373a1)
+
 
 
  
