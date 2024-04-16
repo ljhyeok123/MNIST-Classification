@@ -114,7 +114,7 @@ The number of model parameters in the custom MLP model was set to approximately 
     
  In model.py, we monitor the training of LeNet-5 and our custom MLP model for 10 epochs, showing the average loss value and accuracy at the end of each epoch. For each model, you can see four plots in the figure below: loss and accuracy curves for the training and test datasets, respectively.
 
- The typical accuracy of LeNet-5 on the MNIST dataset is 98%. When implementing LeNet-5 and custom MLP models in model.py, the 10 epoxy test accuracies are 99.01% and 97.45%, respectively. LeNet-5 has a higher test accuracy.
+ The typical accuracy of LeNet-5 on the MNIST dataset is 98%. When implementing LeNet-5 and custom MLP models in model.py, the 10 epochs test accuracies are 99.01% and 97.45%, respectively. LeNet-5 has a higher test accuracy.
 
 To improve the LeNet-5 model, two normalization techniques were applied: batch normalization and dropout. We used torch.nn.BatchNorm2d to add batch normalization and torch.nn.Dropout to add dropout. These additional techniques can stabilize the model's training and reduce overfitting. 
  
