@@ -11,16 +11,6 @@ Designed based on the Artificial Neural Networks and Deep Learning course assign
    - This preprocessing is implemented using torchvision.transforms
 2) Get the following labels from the file name: {number}_{label}.png
 
-## main.py
-
-- main function are instantiated as follows
-
-  
- 1) Dataset objects for training and test datasets 
- 2) Dataloaders for training and testing 
- 3) A model 
- 4) Optimizer: SGD with an initial learning rate of 0.01 and momentum of 0.9 5) Cost function: use torch.nn.CrossEntropyLoss
-
 
 ## model.py
 
@@ -108,7 +98,18 @@ The number of model parameters in the custom MLP model was set to approximately 
     Parameters: 40 × 10 + 10 = 410
 
    - Total parameters: 49950
- 
+
+## main.py
+
+- main function are instantiated as follows
+
+  
+ 1) Dataset objects for training and test datasets 
+ 2) Dataloaders for training and testing 
+ 3) A model 
+ 4) Optimizer: SGD with an initial learning rate of 0.01 and momentum of 0.9 5) Cost function: use torch.nn.CrossEntropyLoss
+
+    
  In model.py, we monitor the training of LeNet-5 and our custom MLP model for 10 epochs, showing the average loss value and accuracy at the end of each epoch. For each model, you can see four plots in the figure below: loss and accuracy curves for the training and test datasets, respectively.
 
  The typical accuracy of LeNet-5 on the MNIST dataset is 98%. When implementing LeNet-5 and custom MLP models in model.py, the 10 epoxy test accuracies are 99.01% and 97.45%, respectively. LeNet-5 has a higher test accuracy.
@@ -117,4 +118,3 @@ To improve the LeNet-5 model, we applied two normalization techniques: batch nor
  
 ![image](https://github.com/ljhyeok123/MNIST-Classification/assets/146068357/6f6cb968-374d-4d21-95b4-f5634b194db9)
 ![image](https://github.com/ljhyeok123/MNIST-Classification/assets/146068357/ec02e952-df82-4bdb-947d-70170de94ca4)
-
