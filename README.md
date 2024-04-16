@@ -101,4 +101,21 @@ To improve the LeNet-5 model, we applied two normalization techniques: batch nor
 ![image](https://github.com/ljhyeok123/MNIST-Classification/assets/146068357/6f6cb968-374d-4d21-95b4-f5634b194db9)
 ![image](https://github.com/ljhyeok123/MNIST-Classification/assets/146068357/ec02e952-df82-4bdb-947d-70170de94ca4)
 
- 
+
+## dataset.py
+1) Each image was preprocessed as follows: 
+    - All values in the range [0,1]. 
+    - Divided by a sub-mean of 0.1307, standard deviation of 0.3081
+   - This preprocessing is implemented using torchvision.transforms
+2) Get the following labels from the file name: {number}_{label}.png
+
+## main.py
+
+- main function
+
+
+   Instantiated as follows
+ 1) Dataset objects for training and test datasets 
+ 2) Dataloaders for training and testing 
+ 3) A model 
+ 4) Optimizer: SGD with an initial learning rate of 0.01 and momentum of 0.9 5) Cost function: use torch.nn.CrossEntropyLoss
