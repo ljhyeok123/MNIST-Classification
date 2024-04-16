@@ -109,10 +109,9 @@ To improve the LeNet-5 model, we applied two normalization techniques: batch nor
 
 ## main.py
 
-- main function
+- main function are instantiated as follows
 
-
-   Instantiated as follows
+  
  1) Dataset objects for training and test datasets 
  2) Dataloaders for training and testing 
  3) A model 
