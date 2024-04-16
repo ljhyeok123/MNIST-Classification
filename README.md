@@ -1,5 +1,7 @@
 # MNIST Classification
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1krbv80qgcDw30kySeCAfevKOIdO-Mbw-?usp=sharing)
+
+
 Designed based on the Artificial Neural Networks and Deep Learning course assignment template from Seoul National University of Science and Technology.
 
 
