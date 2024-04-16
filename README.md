@@ -3,9 +3,7 @@
 
 ## model.py
 
- custom MLP model should have about the same number of model parameters with LeNet-5
- 
-LeNet-5 has a total of 44526 parameters and the custom MLP has 49950 similar parameters.
+The number of model parameters in the custom MLP model was set to approximately the same number as in LeNet-5. LeNet-5 has a total of 44526 parameters and the custom MLP has a similar number, 49950 parameters.
 
 
 - How to calculate parameters?
