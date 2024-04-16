@@ -1,8 +1,10 @@
 # MNIST Classification
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1krbv80qgcDw30kySeCAfevKOIdO-Mbw-?usp=sharing)
-
 
 Designed based on the Artificial Neural Networks and Deep Learning course(2024-1) assignment template from Seoul National University of Science and Technology.
+
+The design was done in the Google CoLab environment and can be seen in the notebook below. 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1krbv80qgcDw30kySeCAfevKOIdO-Mbw-?usp=sharing)
 
 ## dataset.py
 1) Each image was preprocessed as follows: 
